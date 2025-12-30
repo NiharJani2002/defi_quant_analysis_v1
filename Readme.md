@@ -9,8 +9,6 @@
 [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[View Demo](https://github.com/NiharJani2002) • [Report Issue](https://github.com/NiharJani2002/issues) • [Request Feature](https://github.com/NiharJani2002/issues)
-
 </div>
 
 ---
