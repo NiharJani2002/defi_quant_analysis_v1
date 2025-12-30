@@ -95,7 +95,9 @@ Building this project deepened my expertise in **bridging quantitative finance w
 
 ## 🚀 Quick Start
 ```bash
-Run index.html
+- Step 01: git clone https://github.com/NiharJani2002/defi_quant_analysis_v1
+- Step 02: Open Folder named "defi_quant_analysis_v1" either downloaded in your download folder or respective folder in your code editor
+- Step 03: Open index.html in your local browser
 ```
 ## ⚠️ Disclaimer
 
