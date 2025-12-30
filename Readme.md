@@ -1,95 +1,105 @@
-DeFi Quantitative Analysis Portfolio
-Interactive web-based solutions to 6 quantitative finance case studies in decentralized finance (DeFi)
-🎯 What This Code Does
-This project demonstrates quantitative modeling capabilities through interactive HTML/JavaScript applications that solve real DeFi investment problems:
+# 📊 DeFi Quantitative Analysis Portfolio
 
-On-chain forensics - Graph theory to identify protocol reserve addresses
-Yield derivative pricing - Expected value analysis for Pendle YT tokens
-API integration - Hyperliquid leaderboard systematic trading workflow
-Prediction market pricing - Log-normal ensemble model for token launch valuation
-Token valuation - Multi-scenario comparative analysis (Monad vs MegaETH)
-Risk assessment - Stablecoin fragility pattern detection
+<div align="center">
 
-Each solution includes Python quantitative models, interactive Chart.js visualizations, and statistical frameworks inspired by Renaissance Technologies' methodology.
-💡 What I Learned
-Building this taught me to translate complex quantitative concepts into accessible interfaces. 
+**Interactive web-based solutions to 6 quantitative finance case studies in decentralized finance**
 
-Key learnings:
--->Data visualization principles: Choosing appropriate chart types (scatter for correlation, doughnut for composition, line for time-series) to communicate statistical relationships clearly
--->Quantitative finance modeling: Implementing Kelly Criterion, Sharpe ratios, Monte Carlo simulations, and regime-weighted ensembles in JavaScript
--->Interactive UX for analysis: Creating sliders, toggles, and dynamic updates that let users explore parameter sensitivity without re-running Python models
--->Code organization: Structuring HTML artifacts with clear separation between data models, visualization logic, and UI interactions
--->Statistical rigor: Maintaining mathematical accuracy while simplifying presentation (e.g., beta sensitivity factors, correlation matrices, p-value thresholds)
+[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-The project bridges quantitative research and web development—making sophisticated financial models interactive and educational.
-🚀 Quick Start
-bash# No installation required - pure vanilla web
-open index.html
+[View Demo](https://github.com/NiharJani2002) • [Report Issue](https://github.com/NiharJani2002/issues) • [Request Feature](https://github.com/NiharJani2002/issues)
+
+</div>
+
+---
+
+## 🎯 What This Code Does
+
+This portfolio showcases **production-grade quantitative modeling** through six interactive web applications that solve real DeFi investment challenges:
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔍 **On-Chain Forensics**
+Graph theory algorithms to identify protocol reserve addresses through transaction flow analysis
+
+</td>
+<td width="50%">
+
+### 📈 **Yield Derivative Pricing**
+Expected value models for Pendle YT token profitability assessment
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔄 **API Integration**
+Hyperliquid leaderboard data pipeline for systematic copy-trading workflows
+
+</td>
+<td width="50%">
+
+### 🎲 **Prediction Market Pricing**
+Log-normal ensemble models for token launch FDV forecasting
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ⚖️ **Token Valuation**
+Multi-scenario comparative analysis (Monad vs MegaETH) with beta sensitivity
+
+</td>
+<td width="50%">
+
+### ⚠️ **Risk Assessment**
+Stablecoin fragility detection using statistical pattern recognition
+
+</td>
+</tr>
+</table>
+
+> **Methodology Inspiration:** Renaissance Technologies' quantitative approach  
+> **Tech Stack:** Python (quantitative models) + JavaScript (interactive visualizations) + Chart.js + Tailwind CSS
+
+---
+
+## 💡 What I Learned
+
+Building this project deepened my expertise in **bridging quantitative finance with web development**:
+
+### 📊 Data Visualization Mastery
+- Selected optimal chart types: **scatter plots** for correlation analysis, **doughnut charts** for portfolio composition, **line charts** for time-series projections
+- Designed interactive parameters (sliders, toggles) enabling real-time model exploration without backend recalculation
+- Implemented responsive layouts ensuring clarity across devices
+
+### 🧮 Quantitative Finance Implementation
+- Translated academic models (Kelly Criterion, Sharpe ratios, Monte Carlo simulations) into **production JavaScript**
+- Built regime-weighted ensemble pricing engines with beta sensitivity adjustments
+- Maintained mathematical rigor: p-value thresholds (< 0.01), correlation matrices, statistical significance testing
+
+### 🏗️ Code Architecture
+- Structured 2000+ line HTML artifacts with clean separation: **data models → visualization logic → UI components**
+- Embedded complete Python implementations with error handling, rate limiting, connection pooling
+- Achieved zero-dependency deployment (pure vanilla JS + CDN resources)
+
+### 🎨 UX for Complex Analysis
+- Transformed intimidating statistical frameworks into **approachable, educational interfaces**
+- Created "analyst voice" commentary explaining model decisions in plain language
+- Balanced technical depth with accessibility for diverse audiences
+
+---
+
+## 🚀 Quick Start
+```bash
+Run index.html
 ```
-
-## 📂 Project Structure
-```
-├── index.html          # Navigation hub
-├── one.html           # Q1: CAP Protocol Reserves (Graph Theory)
-├── two.html           # Q2: Pendle YT Pricing (Expected Value)
-├── three.html         # Q3: Hyperliquid API (Systematic Trading)
-├── four.html          # Q4: Monad Prediction Market (Log-Normal Model)
-├── five.html          # Q5: Token Valuation (Multi-Scenario)
-├── six.html           # Q6: Stablecoin Risk (Fragility Analysis)
-└── README.md
-🔬 Technical Highlights
-Real-World Problem Solving
-
-Live API integration: Hyperliquid leaderboard, Pendle markets
-Production-ready Python: Complete implementations with error handling, rate limiting, connection pooling
-Statistical rigor: p-value testing, correlation analysis, Monte Carlo simulations
-
-Multiple Files & Substance
-
-6 standalone applications: Each HTML file is a complete, deployable solution (1000-2000 lines)
-Embedded Python models: Full quantitative code included in each page
-Modular architecture: Separate data models, visualization logic, and UI components
-
-Interactive Visualizations
-
-Chart.js implementations: 10+ charts (scatter, line, radar, doughnut, bar)
-Dynamic updates: Real-time recalculation based on user inputs (sliders, toggles)
-Responsive design: Tailwind CSS, mobile-friendly
-
-Framework Lightweight
-
-Vanilla JavaScript: 
-CDN dependencies only: Chart.js, Tailwind CSS (no npm, no build step)
-Instantly deployable: Upload to any static host or open locally
-
-🎓 Methodological Approach
-Inspired by Renaissance Technologies' quantitative methodology:
-
-Data > Narrative: Statistical evidence over market hype
-Risk-adjusted returns: Sharpe ratios, Kelly Criterion, drawdown analysis
-Systematic execution: Automated, emotion-free decision frameworks
-Regime modeling: Multiple market scenarios with probability weights
-
-📊 Example Visualizations
-Each solution includes:
-
-Correlation plots (Plotly) for reserve verification
-Yield decay curves (Chart.js) for derivative pricing
-Scatter plots for alpha vs luck separation
-Distribution comparisons (normal vs fat-tail) for risk modeling
-Radar charts for multi-factor competitive analysis
-
-🔗 Original Case Study
-Solutions address questions from: DeFi Analyst Case Study PDF
-👤 Author
-Nihar Mahesh Jani
-
-📧 Personal: niharmaheshjani@gmail.com
-🎓 University: njan0012@student.monash.edu
-💼 LinkedIn: https://www.linkedin.com/in/nihar-mahesh-j-8824011b
-💻 GitHub: https://github.com/NiharJani2002
-
-⚠️ Disclaimer
-Educational purposes only. Not financial advice. Models require rigorous backtesting before deployment.
-
-"The only thing that matters is the statistical expectation." — Quantitative Trading Philosophy
+### Author Details
+- **Name: NIHAR MAHESH JANI**
+- **Personal Email Address: niharmaheshjani@gmail.com**
+- **University Email Address: njan0012@student.monash.edu**
