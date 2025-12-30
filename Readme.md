@@ -97,6 +97,15 @@ Building this project deepened my expertise in **bridging quantitative finance w
 ```bash
 Run index.html
 ```
+## ⚠️ Disclaimer
+
+> **Educational purposes only.** This code demonstrates quantitative modeling techniques and is not financial advice. All models require rigorous backtesting, risk management, and regulatory compliance before deployment in production trading systems.
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
 ### Author Details
 - **Name: NIHAR MAHESH JANI**
 - **Personal Email Address: niharmaheshjani@gmail.com**
