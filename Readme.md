@@ -111,4 +111,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ### Author Details
 - **Name: NIHAR MAHESH JANI**
 - **Personal Email Address: niharmaheshjani@gmail.com**
-- **University Email Address: njan0012@student.monash.edu**
